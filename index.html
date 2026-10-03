@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Rafi & Alma — Undangan Pernikahan</title>
+
+  <meta
+    name="description"
+    content="Undangan pernikahan Rafi & Alma, Sabtu 12 Desember 2026 di Tangerang."
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="locked">
+
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+
+  <!-- OPENING -->
+  <section class="opening" id="opening">
+
+    <div class="opening-inner">
+
+      <p class="eyebrow">
+        UNDANGAN PERNIKAHAN
+      </p>
+
+      <p class="opening-small">
+        Kepada Yth.
+      </p>
+
+      <h1 id="guestName">
+        Tamu Undangan
+      </h1>
+
+      <div class="opening-divider"></div>
+
+      <p class="opening-couple">
+        Rafi & Alma
+      </p>
+
+      <p class="opening-date">
+        12 · 12 · 2026
+      </p>
+
+      <button
+        type="button"
+        class="button button-dark"
+        id="openInvitation"
+      >
+        Buka Undangan
+      </button>
+
+    </div>
+
+  </section>
+
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+
+      <div
+        class="hero-media cinematic-media"
+        data-speed="-0.065"
+        data-zoom="0.028"
+      >
+
+        <img
+          src="image/foto-01.jpg"
+          alt="Rafi dan Alma"
+          data-cinematic-image
+        >
+
+        <div class="hero-overlay"></div>
+
+        <div class="photo-frame frame-one"></div>
+
+        <div class="hero-meta top">
+          <span>FOTO 01</span>
+          <span>RAFI & ALMA</span>
+        </div>
+
+        <div class="hero-copy">
+
+          <p class="eyebrow light">
+            Bersama keluarga tercinta
+          </p>
+
+          <h2>
+            Rafi <span>&</span> Alma
+          </h2>
+
+          <p>
+            Tangerang · Indonesia
+          </p>
+
+        </div>
+
+        <div class="scroll-indicator">
+          <span>GULIR UNTUK MELIHAT</span>
+          <i></i>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- INTRO -->
+    <section class="section intro reveal">
+
+      <div class="section-label">
+        01 — PEMBUKAAN
+      </div>
+
+      <div class="intro-copy">
+
+        <p class="display-title">
+          Dengan penuh sukacita,
+          kami mengundang Anda untuk
+          menjadi bagian dari hari bahagia kami.
+        </p>
+
+        <p class="body-copy">
+          Sebuah perjalanan baru akan kami mulai.
+          Kehadiran dan doa restu Anda akan menjadi
+          kebahagiaan tersendiri bagi kami.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- COUPLE -->
+    <section class="section couple reveal">
+
+      <div class="section-label">
+        02 — PASANGAN
+      </div>
+
+      <div class="couple-layout">
+
+        <div class="person">
+
+          <p class="eyebrow">
+            MEMPELAI
+          </p>
+
+          <h2>Rafi</h2>
+
+          <p class="couple-role">
+            Putra dari keluarga tercinta
+          </p>
+
+        </div>
+
+        <div class="couple-symbol">
+          &
+        </div>
+
+        <div class="person">
+
+          <p class="eyebrow">
+            MEMPELAI
+          </p>
+
+          <h2>Alma</h2>
+
+          <p class="couple-role">
+            Putri dari keluarga tercinta
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- QUOTE -->
+    <section class="quote-section reveal">
+
+      <div class="quote-inner">
+
+        <span class="quote-mark">
+          “
+        </span>
+
+        <p>
+          Semoga langkah kecil hari ini menjadi
+          awal dari perjalanan panjang yang penuh
+          cinta, doa, dan kebahagiaan.
+        </p>
+
+        <span class="quote-mark quote-end">
+          ”
+        </span>
+
+      </div>
+
+    </section>
+
+
+    <!-- COUNTDOWN -->
+    <section class="section countdown-section reveal">
+
+      <div class="section-label">
+        03 — SAVE THE DATE
+      </div>
+
+      <div class="countdown-copy">
+
+        <p class="eyebrow">
+          MENUJU HARI BAHAGIA
+        </p>
+
+        <h2>
+          12 Desember 2026
+        </h2>
+
+        <p>
+          Sabtu · Tangerang
+        </p>
+
+      </div>
+
+      <div class="countdown" id="countdown">
+
+        <div class="count-item">
+          <strong id="days">0</strong>
+          <span>Hari</span>
+        </div>
+
+        <div class="count-item">
+          <strong id="hours">0</strong>
+          <span>Jam</span>
+        </div>
+
+        <div class="count-item">
+          <strong id="minutes">0</strong>
+          <span>Menit</span>
+        </div>
+
+        <div class="count-item">
+          <strong id="seconds">0</strong>
+          <span>Detik</span>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- EVENT -->
+    <section class="section event-section reveal">
+
+      <div class="section-label">
+        04 — ACARA
+      </div>
+
+      <div class="event-layout">
+
+        <div class="event-heading">
+
+          <p class="eyebrow">
+            AKAD / PEMBERKATAN
+          </p>
+
+          <h2>
+            Hari yang kami nantikan.
+          </h2>
+
+        </div>
+
+        <div class="event-card">
+
+          <div class="event-row">
+            <span>HARI / TANGGAL</span>
+            <strong>
+              Sabtu, 12 Desember 2026
+            </strong>
+          </div>
+
+          <div class="event-row">
+            <span>WAKTU</span>
+            <strong>
+              09.00 WIB — SELESAI
+            </strong>
+          </div>
+
+          <div class="event-row">
+            <span>LOKASI</span>
+            <strong>
+              Kediaman Mempelai Wanita
+            </strong>
+          </div>
+
+          <div class="event-row">
+            <span>KOTA</span>
+            <strong>
+              Tangerang, Indonesia
+            </strong>
+          </div>
+
+          <div class="event-actions">
+
+            <button
+              type="button"
+              class="button button-dark"
+              id="mapsButton"
+            >
+              Google Maps
+            </button>
+
+            <button
+              type="button"
+              class="button button-light"
+              id="calendarButton"
+            >
+              Tambah ke Kalender
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- GALLERY -->
+    <section class="section gallery-section reveal">
+
+      <div class="section-label">
+        05 — MOMEN KAMI
+      </div>
+
+      <div class="gallery-intro">
+
+        <div>
+
+          <p class="eyebrow">
+            DUA BINGKAI, SATU PERJALANAN
+          </p>
+
+          <h2>
+            Momen yang akan kami
+            simpan selamanya.
+          </h2>
+
+        </div>
+
+        <div class="gallery-side-note">
+
+          <strong>02</strong>
+
+          <p>
+            Dua foto untuk mewakili dua hati
+            yang memilih berjalan bersama.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div class="moment-gallery">
+
+        <figure
+          class="gallery-photo gallery-photo-one cinematic-media reveal"
+          data-speed="-0.085"
+          data-zoom="0.035"
+        >
+
+          <img
+            src="image/foto-01.jpg"
+            alt="Momen Rafi dan Alma"
+            data-cinematic-image
+          >
+
+          <div class="gallery-overlay"></div>
+
+          <div class="photo-frame frame-two"></div>
+
+          <figcaption>
+
+            <span>01</span>
+
+            <strong>
+              SATU CERITA
+            </strong>
+
+          </figcaption>
+
+        </figure>
+
+
+        <figure
+          class="gallery-photo gallery-photo-two cinematic-media reveal"
+          data-speed="0.10"
+          data-zoom="0.05"
+        >
+
+          <img
+            src="image/foto-02.jpg"
+            alt="Momen Rafi dan Alma"
+            data-cinematic-image
+          >
+
+          <div class="gallery-overlay"></div>
+
+          <div class="photo-frame frame-three"></div>
+
+          <figcaption>
+
+            <span>02</span>
+
+            <strong>
+              DUA MENJADI SATU
+            </strong>
+
+          </figcaption>
+
+        </figure>
+
+      </div>
+
+    </section>
+
+
+    <!-- RSVP -->
+    <section
+      class="section rsvp-section reveal"
+      id="rsvp"
+    >
+
+      <div class="section-label">
+        06 — KONFIRMASI
+      </div>
+
+
+      <div class="rsvp-layout">
+
+        <div class="rsvp-copy">
+
+          <p class="eyebrow">
+            KONFIRMASI KEHADIRAN
+          </p>
+
+          <h2>
+            Kehadiran Anda
+            berarti bagi kami.
+          </h2>
+
+          <p>
+            Silakan isi konfirmasi kehadiran.
+            Data Anda akan kami catat dan pesan
+            RSVP akan dibuka melalui WhatsApp.
+          </p>
+
+          <p
+            class="rsvp-personal"
+            id="rsvpPersonal"
+          >
+            Tamu Undangan
+          </p>
+
+        </div>
+
+
+        <form
+          id="rsvpForm"
+          class="rsvp-form"
+        >
+
+          <label>
+
+            <span>
+              Nama
+            </span>
+
+            <input
+              type="text"
+              id="name"
+              placeholder="Nama Anda"
+              autocomplete="name"
+              required
+            >
+
+          </label>
+
+
+          <label>
+
+            <span>
+              Apakah Anda bersedia hadir?
+            </span>
+
+            <select
+              id="attendance"
+              required
+            >
+
+              <option value="">
+                Pilih jawaban
+              </option>
+
+              <option value="Hadir">
+                Ya, saya akan hadir
+              </option>
+
+              <option value="Tidak hadir">
+                Maaf, saya tidak dapat hadir
+              </option>
+
+            </select>
+
+          </label>
+
+
+          <label>
+
+            <span>
+              Pesan / Ucapan
+            </span>
+
+            <textarea
+              id="message"
+              rows="5"
+              placeholder="Tulis ucapan atau doa..."
+            ></textarea>
+
+          </label>
+
+
+          <button
+            type="submit"
+            class="button button-dark button-full"
+          >
+            Kirim via WhatsApp
+          </button>
+
+
+          <p
+            class="form-note"
+            id="formNote"
+          >
+            Jawaban akan tersimpan di daftar RSVP.
+          </p>
+
+        </form>
+
+      </div>
+
+    </section>
+
+
+    <!-- CLOSING -->
+    <section class="closing reveal">
+
+      <div class="closing-inner">
+
+        <p class="eyebrow light">
+          DENGAN CINTA
+        </p>
+
+        <h2>
+          Rafi <span>&</span> Alma
+        </h2>
+
+        <p>
+          Sampai jumpa di hari yang penuh kebahagiaan.
+        </p>
+
+        <p class="closing-date">
+          12 · 12 · 2026
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <p>
+      RAFI & ALMA
+    </p>
+
+    <button
+      type="button"
+      class="share-button"
+      id="shareButton"
+    >
+      Bagikan Undangan
+    </button>
+
+  </footer>
+
+
+  <div
+    class="share-feedback"
+    id="shareFeedback"
+  >
+    Link undangan berhasil disalin.
+  </div>
+
+
+  <!-- FLOATING RSVP -->
+  <button
+    type="button"
+    class="floating-rsvp"
+    id="floatingRsvp"
+  >
+    RSVP
+  </button>
+
+
+  <!-- MUSIC -->
+  <audio
+    id="backgroundMusic"
+    src="music/lagu-undangan.mp3"
+    loop
+    preload="metadata"
+  ></audio>
+
+
+  <button
+    type="button"
+    class="music-toggle"
+    id="musicToggle"
+    aria-label="Putar musik"
+    aria-pressed="false"
+  >
+
+    <span class="music-bars">
+      <i></i>
+      <i></i>
+      <i></i>
+    </span>
+
+    <span
+      class="music-text"
+      id="musicText"
+    >
+      MUSIK
+    </span>
+
+  </button>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
